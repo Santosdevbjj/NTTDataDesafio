@@ -119,7 +119,8 @@ Simulação de pedido: http://localhost:8701/pedidos/simular
 
 
 
---
+---
+
 📘 **Detalhes Técnicos & OOP**
 
 Separação de responsabilidades:
@@ -132,6 +133,7 @@ service: regras de negócio e lógica de CRUD
 
 controller: interface REST para os usuários / clientes
 
+---
 
 **Integração entre serviços:**
 
