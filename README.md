@@ -51,16 +51,6 @@ Este projeto consiste em **quatro microserviços Spring Boot** desenvolvidos com
 
 A comunicação entre os serviços ocorre via HTTP, utilizando *Eureka* e *Spring Cloud Gateway* para discovery e roteamento.
 
----
-
-## 🧩 Estrutura do Repositório (monorepo)
-
-desafio-nttdata/ ├── discovery-server/ │   └── src/main/java/...           (código Eureka Server) │   └── src/main/resources/ │       └── application.yml ├── produto-service/ │   ├── src/main/java/...           (domain, repository, service, controller) │   └── src/main/resources/ │       └── application.yml ├── pedido-service/ │   ├── src/main/java/...           (DTOs, controller, CLI runner) │   └── src/main/resources/ │       └── application.yml ├── api-gateway/ │   ├── src/main/java/...           (configuração Gateway e segurança) │   └── src/main/resources/ │       └── application.yml ├── README.md └── .gitignore
-
-- Cada microserviço possui seu próprio `pom.xml` dentro da pasta correspondente.
-- É possível incluir um `pom.xml` pai na raiz para build multicontínuo (opcional).
-
----
 
 ## ✅ Funcionalidades Implementadas
 
