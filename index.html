@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>API Gateway Menu</title></head>
+<body>
+<h1>Microservices – API Gateway</h1>
+<ul>
+  <li><a th:href="@{/api/catalog/produtos}">Listar Produtos</a></li>
+</ul>
+<h2>Simular Pedido</h2>
+<form method="post" th:action="@{/api/order/pedidos/simular}">
+  <label>IDs (vírgula)</label><input name="ids" />
+  <button type="submit">Simular</button>
+</form>
+</body></html>
