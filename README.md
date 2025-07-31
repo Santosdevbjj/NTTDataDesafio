@@ -32,12 +32,7 @@ Realiza chamada ao Microserviço 1 para buscar os produtos disponíveis.
 Permite simular a criação de um pedido com base em uma lista de produtos.
 
 
-xxxxxxxxxxxccxxxxxccccxxxxxxxxxxxxxxx
-
-
-
-
-
+---
 
 
 ## 📌 Visão Geral
@@ -50,6 +45,9 @@ Este projeto consiste em **quatro microserviços Spring Boot** desenvolvidos com
 - **api-gateway**: roteamento de chamadas, autenticação Basic Auth e integração com Eureka (porta **8701**)
 
 A comunicação entre os serviços ocorre via HTTP, utilizando *Eureka* e *Spring Cloud Gateway* para discovery e roteamento.
+
+
+---
 
 
 ## ✅ Funcionalidades Implementadas
