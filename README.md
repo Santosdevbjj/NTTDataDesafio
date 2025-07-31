@@ -119,9 +119,7 @@ Simulação de pedido: http://localhost:8701/pedidos/simular
 
 
 
-
----
-
+--
 📘 Detalhes Técnicos & OOP
 
 Separação de responsabilidades:
@@ -135,66 +133,33 @@ service: regras de negócio e lógica de CRUD
 controller: interface REST para os usuários / clientes
 
 
-Integração entre serviços:
+**Integração entre serviços:*"
 
 pedido-service usa RestTemplate com @LoadBalanced para chamadas HTTP via Eureka Discovery
 
 
-Autenticação:
+**Autenticação:**
 
 Basic Auth no API Gateway, protegendo todos os endpoints expostos externamente
 
 
-Persistência:
+**Persistência:**
 
 produto-service utiliza banco H2 em memória para facilitar testes sem dependência externa
 
 
-Menu interativo CLI:
+**Menu interativo CLI:**
 
 Facilita a simulação de uso real sem necessidade de cliente HTTP (Postman)
 
 
 
+--
 
----
+🙋 **Autor**
 
-📂 Estrutura de Pastas (detalhada)
+Sergio Santos 
 
-Diretório	Conteúdo
-
-discovery-server/	Eureka Server
-produto-service/	CRUD de produtos com H2
-pedido-service/	Simulação de pedidos + CLI interativo
-api-gateway/	Roteamento e segurança via Spring Cloud
-.gitignore	Ignora target/, IDE, arquivos temporários
-README.md	Documentação explicativa do projeto
-
-
-
----
-
-🚀 Próximos Passos (extras recomendados)
-
-Implementar testes unitários e de integração (JUnit + Mockito)
-
-Adotar Spring Cloud Config Server para configuração centralizada
-
-Substituir Basic Auth por OAuth2 / JWT
-
-Dockerização com Docker e docker-compose
-
-Adição de logs centralizados (Zipkin, Sleuth, ELK)
-
-
-
----
-
-🙋 Autor
-
-Seu Nome
-
-Mentor GitHub: seu-usuario
 
 
 
