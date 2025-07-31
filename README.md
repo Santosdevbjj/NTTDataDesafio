@@ -120,7 +120,7 @@ Simulação de pedido: http://localhost:8701/pedidos/simular
 
 
 --
-📘 Detalhes Técnicos & OOP
+📘 **Detalhes Técnicos & OOP**
 
 Separação de responsabilidades:
 
@@ -133,7 +133,7 @@ service: regras de negócio e lógica de CRUD
 controller: interface REST para os usuários / clientes
 
 
-**Integração entre serviços:*"
+**Integração entre serviços:**
 
 pedido-service usa RestTemplate com @LoadBalanced para chamadas HTTP via Eureka Discovery
 
@@ -154,7 +154,7 @@ Facilita a simulação de uso real sem necessidade de cliente HTTP (Postman)
 
 
 
---
+---
 
 🙋 **Autor**
 
